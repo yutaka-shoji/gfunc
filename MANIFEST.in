@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+
+recursive-include src/gfunc *.f90
+recursive-include src/gfunc *.pyf
+recursive-include src/gfunc/torchmodel *.pth
+recursive-include src/gfunc/torchmodel *.pt
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

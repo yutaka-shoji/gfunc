@@ -1,0 +1,22 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module libcmils ! in 
+    interface  ! in :libcmils
+        subroutine integrand(x,n,fo,ra,rb,rd,alpha,k,func) ! in :libcmils:cmils.f90
+            double precision intent(in) :: x
+            integer intent(in) :: n
+            double precision intent(in) :: fo
+            double precision intent(in) :: ra
+            double precision intent(in) :: rb
+            double precision intent(in) :: rd
+            double precision intent(in) :: alpha
+            double precision intent(in) :: k
+            double precision intent(out) :: func
+        end subroutine integrand
+    end interface 
+end python module libcmils
+
+! This file was auto-generated with f2py (version:1.23.5).
+! See:
+! https://web.archive.org/web/20140822061353/http://cens.ioc.ee/projects/f2py2e
