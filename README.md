@@ -8,4 +8,8 @@ Before install, you need to install a fortran compiler such as [*gfortran*](http
 
 ## Installation
 
+```sh
+pip install https://github.com/yutaka-shoji/gfunc/releases/download/v0.1.0/gfunc-0.1.0.tar.gz
+```
+
 MIT license
